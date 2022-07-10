@@ -1,0 +1,35 @@
+.header {
+    overflow: hidden;
+    border-bottom: #d5d5d5 1px solid;
+    height: 80px;
+    line-height: 80px;
+    margin-bottom: 10px;
+    margin-left: 5.5rem;
+    margin-right: 5.5rem;
+    margin-top: 2rem;
+    padding: 50rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    font-weight: 500;
+    font-size: 20px;
+    color: #f85606;
+}
+
+.card-fs-content {
+    margin-bottom: 12px;
+    background-color: #fff;
+    height: 330px;
+    display: flex;
+   justify-content: space-around;
+   flex-wrap: wrap;
+   /* width: 90%; */
+   padding: 1rem;
+   margin-left: 5.5rem;
+   margin-right:5.5rem;
+   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.box{
+    /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
+    height: 320px;
+    width: 190px;
+}
