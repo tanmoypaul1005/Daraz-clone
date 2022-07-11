@@ -18,8 +18,8 @@ const SideBar = () => {
                                             <li><a href="index-v7.html">Home 07</a></li>
                                         </ul>
                                     </li>
-                                    <li><a href="overview.html">About Us <IoChevronForwardOutline/></a></li> 
-                                    <li><a href="services.html">Services <IoChevronForwardOutline/></a>
+                                  
+                                    <li><a href="services.html">Service <IoChevronForwardOutline/></a>
                                         <ul class="submenu">
                                             <li><a href="services.html">Services</a></li>
                                             <li><a href="services-single.html">Services Single</a></li>

@@ -56,7 +56,7 @@ const NavBars = () => {
         />
         <Button style={{height:'45px'}} variant="outline-success"> <FaSearch/></Button>
       </Form>
-            <Nav.Link className="navbar" href="/singup"><IoCartOutline className='shopcart'/></Nav.Link>
+            <Nav.Link className="navbar" href="/cart"><IoCartOutline className='shopcart'/></Nav.Link>
             <Nav.Link className="navbar" href="/singup"><img style={{marginLeft:'1rem',width: "188px",height: "45px",display: "block"}} src="https://icms-image.slatic.net/images/ims-web/e6fd2baf-e763-44e8-9c7a-6cb0da66a49f.png"></img></Nav.Link>
           </Nav>
         </Navbar.Collapse>

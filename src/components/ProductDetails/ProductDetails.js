@@ -1,6 +1,6 @@
 import React from 'react';
 import './ProductDetails.css';
-import { IoLocationOutline,IoCashOutline,IoShieldOutline} from "react-icons/io5";
+import { IoLocationOutline,IoCashOutline,IoShieldOutline,IoChevronForwardOutline} from "react-icons/io5";
 import ReactStars from "react-rating-stars-component";
 import {FaHandshakeAltSlash } from "react-icons/fa";
 const ProductDetails = () => {
@@ -9,6 +9,9 @@ const ProductDetails = () => {
       };
     return (
         <div>
+            <div className='breadcrumb_list'>Bags and Travel<IoChevronForwardOutline/>
+            Men Bags<IoChevronForwardOutline/>Backpacks<IoChevronForwardOutline/>
+            Fashion backpacks<IoChevronForwardOutline/>Mini Backpack Daypack Bookbags 10L</div>
             <div className='row details'>
                 <div className='col-md-3'><img style={{width:'16rem',height:'22rem'}} src="https://static-01.daraz.com.bd/p/a39cccb61adddf40869f750c6e37f462.jpg"/></div>
                 <div className='col-md-5'>
@@ -76,6 +79,25 @@ const ProductDetails = () => {
                 <div style={{display:'flex'}}>
                     <IoShieldOutline/>
                     <p style={{marginLeft:'1rem',lineHeight: "14px"}}>Warranty not available</p>
+                </div>
+
+                <div className='seller_body'>
+                    <span className='seller-name__title'>Sold by</span><br></br>
+                    <span style={{fontSize: "16px",color: "#212121"}}>Beautiful Shop</span>
+                    <div className='pdp-seller-info-pc'>
+                    <div className='info-content'>
+                        <div className='seller-info-title'>Positive Seller Ratings</div>
+                        <div className='seller-info-value'>90%</div>
+                    </div>
+                    <div className='info-content'>
+                        <div className='seller-info-title'>Ship on Time</div>
+                        <div className='seller-info-value'>95%</div>
+                    </div>
+                    <div className='info-content'>
+                        <div className='seller-info-title'>Chat Response Rate</div>
+                        <div className='seller-info-value'>97%</div>
+                    </div>
+                    </div>
                 </div>
 
                 </div>

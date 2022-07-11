@@ -8,16 +8,17 @@
     margin-right: 5.5rem;
     margin-top: 2rem;
     padding: 0.2rem;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
     font-weight: 500;
     font-size: 24px;
     color: #f85606;
+
 }
 
-.card-fs-content {
-    margin-bottom: 12px;
+.card-product-content {
+    margin-bottom: 4rem;
     background-color: #fff;
-    height: 360px;
+    height: 390px;
     display: flex;
    justify-content: space-around;
    flex-wrap: wrap;
@@ -25,11 +26,15 @@
    padding: 1rem;
    margin-left: 5.5rem;
    margin-right:5.5rem;
-   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+   /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
+
 }
 
-.box{
-    /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
-    height: 320px;
-    width: 190px;
+.productbox{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    height: 385px;
+    width: 210px;
+    text-overflow: none;
+    /* margin: 0; */
+    margin-top: 0.7rem;
 }
